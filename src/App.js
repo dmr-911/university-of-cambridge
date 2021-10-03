@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
 import CarouselContainer from './components/Carousel/CarouselContainer';
 import Services from './components/Services/Services';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
@@ -14,8 +15,11 @@ function App() {
         <SearchBar></SearchBar>
         <CarouselContainer></CarouselContainer>
         <Services></Services>
+        <Courses></Courses>
         <Switch>
-
+          <Route exact path="/services">
+            
+          </Route>
         </Switch>
       </Router>
     </div>

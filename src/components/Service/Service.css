@@ -1,0 +1,17 @@
+.service-card{
+    overflow: hidden;
+    cursor: pointer;
+}
+.service-img{
+    position: relative;
+    transition: transform .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
+}
+.service-img:hover{
+    transform: scale3d(1.1,1.1,1);
+    opacity: .9;
+}
+.service-title{
+    position: absolute;
+    bottom: 65px;
+    left: 80px;
+}
