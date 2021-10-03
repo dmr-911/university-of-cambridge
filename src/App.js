@@ -7,6 +7,7 @@ import CarouselContainer from './components/Carousel/CarouselContainer';
 import Services from './components/Services/Services';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Services></Services>
         <Courses></Courses>
         <About></About>
+        <Footer></Footer>
         <Switch>
           <Route exact path="/services">
             
