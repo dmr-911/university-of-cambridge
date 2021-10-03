@@ -15,10 +15,11 @@ const Services = () => {
 
     return (
       <Container>
-        <h1 className="mb-3 mt-5 fw-bold">
+        <h1 className="mb-1 mt-5 fw-bold">
           <span className="color-dark">Our</span>{" "}
           <span className="color-orrange">Services</span>
         </h1>
+        <div className="break-line mx-auto mb-3"></div>
         {services.length ? (
           <Row xs={1} md={3} lg={4} className="g-4 mb-5">
             {services.map((service) => (

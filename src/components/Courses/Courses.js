@@ -15,10 +15,11 @@ const Courses = () => {
 
     return (
       <Container>
-        <h2 className="my-4 fw-bold">
+        <h2 className="mt-4 mb-2 fw-bold">
           <span className="color-dark">Academy</span>{" "}
           <span className="color-orrange">Courses</span>
         </h2>
+        <div className="break-line mx-auto mb-3"></div>
         {courses.length ? (
           <Row xs={1} md={2} lg={2} className="g-4 mb-5">
             {courses.map((course) => (

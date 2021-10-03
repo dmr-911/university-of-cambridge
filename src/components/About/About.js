@@ -15,10 +15,11 @@ const About = () => {
     
     return (
       <Container>
-        <h2 className="my-3 fw-bold">
+        <h2 className="mt-3 mb-2 fw-bold">
           <span className="color-dark">About</span>{" "}
           <span className="color-orrange">University</span>
         </h2>
+        <div className="break-line mx-auto mb-3"></div>
         {about.length ? (
           <Row xs={1} md={2} lg={3} className="g-0 mb-5">
             {about.map((item) => (
