@@ -1,0 +1,66 @@
+[
+  {
+    "id": "6159e3d2829266e574cffa39",
+    "index": 0,
+    "picture": "https://images.pexels.com/photos/6332018/pexels-photo-6332018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Academics",
+    "email": "kristinhart@ecratic.com",
+    "phone": "+1 (833) 505-3057"
+  },
+  {
+    "id": "6159e3d2f2c1aad10bccc681",
+    "index": 1,
+    "picture": "https://images.pexels.com/photos/7063779/pexels-photo-7063779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Admission",
+    "email": "norayates@ecratic.com",
+    "phone": "+1 (832) 600-3188"
+  },
+  {
+    "id": "6159e3d2dd2c47185b9ba007",
+    "index": 2,
+    "picture": "https://images.pexels.com/photos/4943536/pexels-photo-4943536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Students Profile",
+    "email": "annabelleshannon@ecratic.com",
+    "phone": "+1 (883) 564-3020"
+  },
+  {
+    "id": "6159e3d2fde9f9a7da6ae536",
+    "index": 3,
+    "picture": "https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Research and Education",
+    "email": "braycalhoun@ecratic.com",
+    "phone": "+1 (805) 559-3314"
+  },
+  {
+    "id": "6159e3d2be08b6ef0b844f3d",
+    "index": 4,
+    "picture": "https://images.pexels.com/photos/3876782/pexels-photo-3876782.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Courses",
+    "email": "alliewhite@ecratic.com",
+    "phone": "+1 (969) 479-3760"
+  },
+  {
+    "id": "6159e3d26d934b4ea7e137c1",
+    "index": 5,
+    "picture": "https://images.pexels.com/photos/4022332/pexels-photo-4022332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Exam Timeline",
+    "email": "earnestineweber@ecratic.com",
+    "phone": "+1 (818) 437-3031"
+  },
+  {
+    "id": "6159e3d204d8edcee462e3c6",
+    "index": 6,
+    "picture": "https://images.pexels.com/photos/5326971/pexels-photo-5326971.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Seminar 2020",
+    "email": "powellcastaneda@ecratic.com",
+    "phone": "+1 (850) 563-2585"
+  },
+  {
+    "id": "6159e3d2c03789818bce801e",
+    "index": 7,
+    "picture": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Library",
+    "email": "ballardgoff@ecratic.com",
+    "phone": "+1 (905) 551-2217"
+  }
+]

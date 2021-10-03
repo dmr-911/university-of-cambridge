@@ -1,0 +1,74 @@
+[
+  {
+    "id": "6159e3d2829266e574cffa39",
+    "index": 0,
+    "balance": "$3,848.46",
+    "picture": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Web Engineering",
+    "email": "kristinhart@ecratic.com",
+    "phone": "+1 (833) 505-3057"
+  },
+  {
+    "id": "6159e3d2f2c1aad10bccc681",
+    "index": 1,
+    "balance": "$3,106.98",
+    "picture": "https://images.pexels.com/photos/8199768/pexels-photo-8199768.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Computer Science and Engineering",
+    "email": "norayates@ecratic.com",
+    "phone": "+1 (832) 600-3188"
+  },
+  {
+    "id": "6159e3d2dd2c47185b9ba007",
+    "index": 2,
+    "balance": "$3,119.78",
+    "picture": "https://images.pexels.com/photos/6347546/pexels-photo-6347546.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Textile Engineering",
+    "email": "annabelleshannon@ecratic.com",
+    "phone": "+1 (883) 564-3020"
+  },
+  {
+    "id": "6159e3d2fde9f9a7da6ae536",
+    "index": 3,
+    "balance": "$3,796.16",
+    "picture": "https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Civil Engineering",
+    "email": "braycalhoun@ecratic.com",
+    "phone": "+1 (805) 559-3314"
+  },
+  {
+    "id": "6159e3d2be08b6ef0b844f3d",
+    "index": 4,
+    "balance": "$1,822.36",
+    "picture": "https://images.pexels.com/photos/4524977/pexels-photo-4524977.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Business & Administration",
+    "email": "alliewhite@ecratic.com",
+    "phone": "+1 (969) 479-3760"
+  },
+  {
+    "id": "6159e3d26d934b4ea7e137c1",
+    "index": 5,
+    "balance": "$3,612.02",
+    "picture": "https://images.pexels.com/photos/3825584/pexels-photo-3825584.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Electrical & Electronic Engineering",
+    "email": "earnestineweber@ecratic.com",
+    "phone": "+1 (818) 437-3031"
+  },
+  {
+    "id": "6159e3d204d8edcee462e3c6",
+    "index": 6,
+    "balance": "$2,480.41",
+    "picture": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Bachelor Program Of Pharmacy",
+    "email": "powellcastaneda@ecratic.com",
+    "phone": "+1 (850) 563-2585"
+  },
+  {
+    "id": "6159e3d2c03789818bce801e",
+    "index": 7,
+    "balance": "$2,852.35",
+    "picture": "https://images.pexels.com/photos/6929162/pexels-photo-6929162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "name": "Bachelor Of English",
+    "email": "ballardgoff@ecratic.com",
+    "phone": "+1 (905) 551-2217"
+  }
+]
