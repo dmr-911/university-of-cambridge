@@ -6,6 +6,7 @@ import SearchBar from './components/SearchBar/SearchBar';
 import CarouselContainer from './components/Carousel/CarouselContainer';
 import Services from './components/Services/Services';
 import Courses from './components/Courses/Courses';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <CarouselContainer></CarouselContainer>
         <Services></Services>
         <Courses></Courses>
+        <About></About>
         <Switch>
           <Route exact path="/services">
             
