@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import CarouselContainer from '../Carousel/CarouselContainer';
 import Courses from '../Courses/Courses';
 import SearchBar from '../SearchBar/SearchBar';
@@ -11,6 +12,7 @@ const Home = () => {
         <CarouselContainer></CarouselContainer>
         <Services></Services>
         <Courses></Courses>
+        <About></About>
       </div>
     );
 };
