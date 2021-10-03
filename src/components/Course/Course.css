@@ -2,10 +2,14 @@
     min-height: 300px;
     transition: transform .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
     transition: border .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
+    transition: background-color .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
+    cursor: pointer;
 }
 .course-card:hover{
         transform: scale3d(1.01,1.01,1);
         border: 1px solid #002147;
+        background-color: #002147;
+        color: white;
 }
 .course-img{
     width: 250px!important;

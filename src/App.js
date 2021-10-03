@@ -8,23 +8,35 @@ import Services from './components/Services/Services';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header></Header>
-        <SearchBar></SearchBar>
-        <CarouselContainer></CarouselContainer>
-        <Services></Services>
-        <Courses></Courses>
-        <About></About>
-        <Footer></Footer>
         <Switch>
-          <Route exact path="/services">
-            
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/courses">
+            <Courses></Courses>
+          </Route>
+          <Route path="/services">
+            <Services></Services>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="*">
+              <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

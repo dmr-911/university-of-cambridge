@@ -15,7 +15,7 @@ const Services = () => {
 
     return (
         <Container>
-            <h1 className="my-3">This is Services Container</h1>
+            <h1 className="mb-3 mt-5 fw-bold"><span className="color-dark">Our</span> <span className="color-orrange">Services</span></h1>
         <Row xs={1} md={3} lg={4} className="g-4 mb-5">
           {
               services.map(service => <Service key={service.id} service={service}></Service>)

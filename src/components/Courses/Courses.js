@@ -15,7 +15,7 @@ const Courses = () => {
 
     return (
       <Container>
-        <h2 className="my-4">This is Courses</h2>
+        <h2 className="my-4 fw-bold"><span className="color-dark">Academy</span> <span className="color-orrange">Courses</span></h2>
         <Row xs={1} md={2} lg={2} className="g-4 mb-5">
           {
               courses.map(course => <Course key={course.id} course={course}></Course>)
