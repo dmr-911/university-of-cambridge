@@ -11,6 +11,8 @@ const Courses = () => {
   const { searched } = useContext(SearchContext);
   const [courses, setCourses] = useState([]);
   const [searchedCourse, setSearchedCourse] = useState([]);
+
+  // For All Courses 
   useEffect(() => {
     fetch('./subjects.JSON')
       .then(res => res.json())
@@ -19,6 +21,8 @@ const Courses = () => {
         setSearchedCourse(data);
       });
   }, []);
+
+  // For Searched Courses 
   useEffect(() => {
     const newCourses = courses.filter(course => course.name.toLowerCase().includes(searched));
     setSearchedCourse(newCourses);

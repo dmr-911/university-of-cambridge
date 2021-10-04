@@ -5,7 +5,9 @@ import { SearchContext } from '../../App';
 import './SearchBar.css';
 
 const SearchBar = () => {
-  const {handleOnSearch} = useContext(SearchContext);
+  // Calling context api
+  const { handleOnSearch } = useContext(SearchContext);
+  
   const handleOnChange = event => {
     handleOnSearch(event.target.value);
   }

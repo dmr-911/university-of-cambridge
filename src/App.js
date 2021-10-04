@@ -12,6 +12,7 @@ import NotFound from './components/NotFound/NotFound';
 import React from 'react';
 import { useState } from 'react';
 
+// React Context Created
 export const SearchContext = React.createContext('search');
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       value={{ handleOnSearch: handleOnSearch, searched: searched }}
     >
       <div className="App">
+        {/* Router Strats  */}
         <Router>
           <Header></Header>
           <Switch>
@@ -50,6 +52,7 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
+        {/* Router Ends  */}
       </div>
     </SearchContext.Provider>
   );

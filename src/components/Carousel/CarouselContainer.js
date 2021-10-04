@@ -28,22 +28,6 @@ const CarouselContainer = () => {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-img"
-              src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Second slide"
-            />
-
-            <Carousel.Caption>
-              <h1 className="fw-bold">
-                <span className="">Admission Open </span> <span>2022</span>
-              </h1>
-              <p className="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-img"
               src="https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt="Third slide"
             />

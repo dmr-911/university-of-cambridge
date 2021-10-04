@@ -11,6 +11,7 @@ const Services = () => {
   const { searched } = useContext(SearchContext);
   const [services, setServices] = useState([]);
   const [searchedServices, setSearchedServices] = useState([]);
+  // For All services 
   useEffect(() => {
     fetch('./services.JSON')
       .then(res => res.json())
@@ -20,6 +21,7 @@ const Services = () => {
       });
   }, []);
 
+  // For Searched Services 
   useEffect(() => {
     const newServices = services.filter(service => service.name.toLowerCase().includes(searched.toLowerCase()));
     setSearchedServices(newServices);
