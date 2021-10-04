@@ -9,9 +9,9 @@ const Course = (props) => {
     const chart = <FontAwesomeIcon icon={faChartBar} />;
     return (
       <Col>
-        <Card className="course-card">
-          <Row>
-              <Col md={5} >
+        <Card style={{overflow: 'hidden'}}>
+          <Row className="course-card" >
+            <Col md={5}>
             <Card.Img
               height="150"
               className="course-img"
