@@ -1,17 +1,29 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { useContext } from 'react';
 import { useState } from 'react';
 import { Container, Row, Spinner } from 'react-bootstrap';
+import { SearchContext } from '../../App';
 import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('./services.JSON')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, [])
+  const { searched } = useContext(SearchContext);
+  const [services, setServices] = useState([]);
+  const [searchedServices, setSearchedServices] = useState([]);
+  useEffect(() => {
+    fetch('./services.JSON')
+      .then(res => res.json())
+      .then(data => {
+        setServices(data);
+        setSearchedServices(data);
+      });
+  }, []);
+
+  useEffect(() => {
+    const newServices = services.filter(service => service.name.toLowerCase().includes(searched.toLowerCase()));
+    setSearchedServices(newServices);
+  },[searched])
 
     return (
       <Container>
@@ -21,11 +33,14 @@ const Services = () => {
         </h1>
         <div className="break-line mx-auto mb-3"></div>
         {services.length ? (
-          <Row xs={1} md={3} lg={4} className="g-4 mb-5">
-            {services.map((service) => (
+          searchedServices.length ?
+            <Row xs={1} md={3} lg={4} className="g-4 mb-5">
+            {searchedServices.map((service) => (
               <Service key={service.id} service={service}></Service>
             ))}
-          </Row>
+            </Row>
+            :
+            <h2 className="my-5">No Results Found</h2>
         ) : (
           <Spinner className="my-5" animation="border" variant="secondary" />
         )}
