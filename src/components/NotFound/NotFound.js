@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Button, NavLink } from 'react-bootstrap';
+import { Container, Image, Button } from 'react-bootstrap';
 import './NotFound.css';
 import notFound from '../../images/notfound.jpg';
 import { useHistory } from 'react-router';

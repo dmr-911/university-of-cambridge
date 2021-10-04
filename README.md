@@ -10,6 +10,7 @@ Here is the Project Live site :  [University of Cambridge](https://university-of
 => React Spring
 
 ## Motivation
+=> Responsive for all available devices
 => People who can wish to get admission online, can use online admission
 => Site has a Header and Footer section
 => There are courses, services and about section included
