@@ -1,17 +1,19 @@
 import React from 'react';
-import { Container, Image, Button } from 'react-bootstrap';
+import { Container, Image, Button, NavLink } from 'react-bootstrap';
 import './NotFound.css';
 import notFound from '../../images/notfound.jpg';
+import { useHistory } from 'react-router';
 
 const NotFound = () => {
+  const history = useHistory();
     const handleBack = () => {
-        window.history.go(-1);
+      history.push('./home');
     }
     return (
       <Container className="my-5">
         <Image src={notFound}></Image>
         <br />
-        <Button onClick={handleBack} variant="primary" className="my-2">Go Back</Button>{" "}
+        <Button onClick={handleBack} variant="primary">Go Home</Button>{" "}
       </Container>
     );
 };
