@@ -1,15 +1,15 @@
 import React from 'react';
 import About from '../About/About';
 import CarouselContainer from '../Carousel/CarouselContainer';
-import Courses from '../Courses/Courses';
-import Services from '../Services/Services';
+import HomeCourses from '../HomeCourses/HomeCourses';
+import HomeServices from '../HomeServices/HomeServices';
 
 const Home = () => {
     return (
       <div>
         <CarouselContainer></CarouselContainer>
-        <Services></Services>
-        <Courses></Courses>
+        <HomeServices></HomeServices>
+        <HomeCourses></HomeCourses>
         <About></About>
       </div>
     );
